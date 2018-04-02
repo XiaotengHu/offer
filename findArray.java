@@ -1,6 +1,6 @@
 package test;
 
-public class findArray {
+public class FindArray {
 public boolean findNum(int[][] data, int num){
 	if(data == null){
 		return false;
@@ -23,7 +23,7 @@ public boolean findNum(int[][] data, int num){
 }
 public static void main(String[] args) {
 	int[][] data = {{2,3,4},{3,4,5},{4,5,6}};
-	findArray find = new findArray();
+	FindArray find = new FindArray();
 	boolean result = false;
 	result = find.findNum(data, 3);
 	System.out.println(result);
